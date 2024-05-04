@@ -57,7 +57,12 @@ console.log("Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ac
 // let addNumbers = function (num1: number): number{  
 //     return num1;     // return type will number
 // };
-// console.log(addNumbers(15)); 
+// console.log(addNumbers(15));
+
+let add = function (num1: number, string1: string) {  
+    return num1 + string1     
+};
+console.log(add(786, " illahibux")); 
 
 
 // 3. Arrow function
@@ -66,7 +71,10 @@ console.log("Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ac
 //     return myName;
 // }
 // console.log(addName(123));
-
+// let abc = (myPara: number): string => {
+//     return myPara;
+// }
+// console.log(abc(123))
 
 // function myFun(num1){
 // return num1;
@@ -103,40 +111,6 @@ console.log("Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ac
 
 
 
-//  Optional Parameters:
-// Optional parameters can be omitted when calling the function using "?"
-
-// function addNumbers(num1: number, num2: number, num3?: number){
-//     if(num3){
-//         return num1 + num2 + num3;
-//     }else{
-//         return num1 + num2;
-//     }
-// }
-// console.log(addNumbers(13, 24));
-// console.log(addNumbers(13, 24, 500));
 
 
 
-
-
-
-
-//  Default Parameters:
-// Default parameters allow you to initialize a parameter with a default value if no argument is provided for that parameter.
-function addNumbers(num1: number, num2: number, num3: number = 786){
-        return num1 + num2 + num3; 
-}
-console.log(addNumbers(3, 4));
-console.log(addNumbers(3, 4, 5));
-
-
-
-
-
-
-// Rest Parameters:
-function myRestParFun(name, ...num: (string | number | boolean)[]){
-    return name + num
-}
-console.log(myRestParFun("IB Coding ", 786, 59, 590, 20, 20, 10, "illahibux", true));

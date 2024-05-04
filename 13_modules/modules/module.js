@@ -5,7 +5,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // import { myName, myNumber } from "./myVariables";
 // import { myName, myNumber } from "./newFolder/myVariables";
-var myVariables_1 = require("../myVariables");
+const myVariables_1 = require("../myVariables");
 // console.log(addNumber(13, 3, 2));
 // console.log(myFruits("Apple", "Mango", "Orange"))
 // console.log(personDetails);

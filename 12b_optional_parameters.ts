@@ -11,10 +11,27 @@
 
 
 
-function myStringFun(name: string, country?: string){
+// function myStringFun(name: string, country?: string){
+//   if(country){
+//     return `My name is ${name} and my Country is ${country}`
+//   }
+//   return `My name is ${name}`
+// }
+// console.log(myStringFun("Ali", "Pakistan"));
+
+
+// function abc (name?: string, country: string){
+//   if(country){
+//     return name + country
+//   }
+//   return name
+// }
+// console.log(abc("Ali"));
+
+function abc (name?: string, country: string){
   if(country){
-    return `My name is ${name} and my Country is ${country}`
+    return name + country
   }
-  return `My name is ${name}`
+  return name
 }
-console.log(myStringFun("Ali", "Pakistan"));
+console.log(abc("Ali", "Pakistan"));

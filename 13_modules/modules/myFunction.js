@@ -6,6 +6,6 @@ function addNumber(num1, num2, num3) {
 }
 exports.addNumber = addNumber;
 function myFruits(fruit1, fruit2, fruit3) {
-    return "".concat(fruit1, ", ").concat(fruit2, ", ").concat(fruit3);
+    return `${fruit1}, ${fruit2}, ${fruit3}`;
 }
 exports.myFruits = myFruits;
