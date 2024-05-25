@@ -1,6 +1,5 @@
-var myObj = {
-    name: "illahibux",
-    num: 1234,
-    subjects: ["IT", "AI", "TypeScript"]
-};
-console.log(myObj["subjects"][1]);
+function add(a, b) {
+    return a + b;
+}
+console.log(add(10, 20)); // Output: 30 (number + number)
+console.log(add("Hello ", "World")); // Output: "Hello World" (string + string)
