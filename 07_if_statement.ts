@@ -61,19 +61,19 @@ if (condition) {
 
 // Nesting if-else Statements
 
-let person: string = "Young";
-let personAge: number = 60;
+// let person: string = "Young";
+// let personAge: number = 60;
 
-if(person === "Young"){
+// if(person === "Young"){
 
-  if(personAge === 30){
-    console.log(`person is 30 year old`)
-  }else if(personAge < 30){
-    console.log(`person age is less than 30`);
-  }else{
-    console.log(`person age is above 30`);
-  }
+//   if(personAge === 30){
+//     console.log(`person is 30 year old`)
+//   }else if(personAge < 30){
+//     console.log(`person age is less than 30`);
+//   }else{
+//     console.log(`person age is above 30`);
+//   }
 
-}else{
-  console.log(`Person is not young`)
-}
+// }else{
+//   console.log(`Person is not young`)
+// }

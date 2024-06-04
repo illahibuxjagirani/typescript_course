@@ -15,12 +15,12 @@
 
 
 // 2. using a variable
-console.log(firstName);
+// console.log(firstName);
 
-// 3. Changing a variable
+// // 3. Changing a variable
 
-firstName = "Ali";
-firstName = "Hussain";
-console.log(firstName);
+// firstName = "Ali";
+// firstName = "Hussain";
+// console.log(firstName);
 
-console.log(ib);
+// console.log(ib);
