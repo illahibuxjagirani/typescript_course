@@ -57,17 +57,17 @@
 
 // Example-2 print the user whose age is greater than 20;
 
-let myUsers: {name: string, age: number } [] = [
-    {name: 'illahibux', age: 25},
-    {name: 'Ali', age: 40},
-    {name: 'Madad', age: 20},
-    {name: 'Ayaz', age: 30},
-    {name: 'Manzoor', age: 9},
-];
+// let myUsers: {name: string, age: number } [] = [
+//     {name: 'illahibux', age: 25},
+//     {name: 'Ali', age: 40},
+//     {name: 'Madad', age: 20},
+//     {name: 'Ayaz', age: 30},
+//     {name: 'Manzoor', age: 9},
+// ];
  
-// we can add more condition
-const ageGreater20 = myUsers.filter((user)=>{
-    return user.age > 20 && user.name.length > 5
-});
-console.log(ageGreater20)
+// // we can add more condition
+// const ageGreater20 = myUsers.filter((user)=>{
+//     return user.age > 20 && user.name.length > 5
+// });
+// console.log(ageGreater20)
 

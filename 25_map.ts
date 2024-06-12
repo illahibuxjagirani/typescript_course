@@ -73,14 +73,14 @@
 
 // Example-2 extracting names from an objects in the array
 
-let myArrayObject: {name: string, age: number}[] = [
-    {name: 'illahibux', age: 18},
-    {name: 'Ali', age: 29},
-    {name: 'Ahmed', age: 30},
-    {name: 'Nasir', age: 20}
-]
-// console.log(myArrayObject)
+// let myArrayObject: {name: string, age: number}[] = [
+//     {name: 'illahibux', age: 18},
+//     {name: 'Ali', age: 29},
+//     {name: 'Ahmed', age: 30},
+//     {name: 'Nasir', age: 20}
+// ]
+// // console.log(myArrayObject)
 
-myArrayObject.map((items)=>{
-    console.log(`Person name is ${items.name} and his/her age is ${items.age}`)
-})
+// myArrayObject.map((items)=>{
+//     console.log(`Person name is ${items.name} and his/her age is ${items.age}`)
+// })

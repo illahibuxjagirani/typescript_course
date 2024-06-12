@@ -1,5 +1,7 @@
+"use strict";
 // filter() method in TypeScript
 // create a new array containing only elements from the original array that pass a test/condition.
+Object.defineProperty(exports, "__esModule", { value: true });
 // How it Works:
 // filter() iterates through each element in the original array.
 // It require a callback function
@@ -22,15 +24,15 @@
 // });
 // console.log(namesNew);
 // Example-2 print the user whose age is greater than 20;
-var myUsers = [
-    { name: 'illahibux', age: 25 },
-    { name: 'Ali', age: 40 },
-    { name: 'Madad', age: 20 },
-    { name: 'Ayaz', age: 30 },
-    { name: 'Manzoor', age: 9 },
-];
-// we can add more condition
-var ageGreater20 = myUsers.filter(function (user) {
-    return user.age > 20 && user.name.length > 5;
-});
-console.log(ageGreater20);
+// let myUsers: {name: string, age: number } [] = [
+//     {name: 'illahibux', age: 25},
+//     {name: 'Ali', age: 40},
+//     {name: 'Madad', age: 20},
+//     {name: 'Ayaz', age: 30},
+//     {name: 'Manzoor', age: 9},
+// ];
+// // we can add more condition
+// const ageGreater20 = myUsers.filter((user)=>{
+//     return user.age > 20 && user.name.length > 5
+// });
+// console.log(ageGreater20)

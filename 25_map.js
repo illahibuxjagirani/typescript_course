@@ -1,4 +1,6 @@
+"use strict";
 // map() method:
+Object.defineProperty(exports, "__esModule", { value: true });
 // a built-in function that operates on arrays in TypeScript.
 //It iterates through each element in an array, 
 //provide callback function, and returns a new array
@@ -29,13 +31,13 @@
 //     console.log(`${num} x 10 = ${num * 10}`)
 // })
 // Example-2 extracting names from an objects in the array
-var myArrayObject = [
-    { name: 'illahibux', age: 18 },
-    { name: 'Ali', age: 29 },
-    { name: 'Ahmed', age: 30 },
-    { name: 'Nasir', age: 20 }
-];
-// console.log(myArrayObject)
-myArrayObject.map(function (items) {
-    console.log("Person name is ".concat(items.name, " and his/her age is ").concat(items.age));
-});
+// let myArrayObject: {name: string, age: number}[] = [
+//     {name: 'illahibux', age: 18},
+//     {name: 'Ali', age: 29},
+//     {name: 'Ahmed', age: 30},
+//     {name: 'Nasir', age: 20}
+// ]
+// // console.log(myArrayObject)
+// myArrayObject.map((items)=>{
+//     console.log(`Person name is ${items.name} and his/her age is ${items.age}`)
+// })
